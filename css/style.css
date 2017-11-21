@@ -258,10 +258,14 @@ p {
   }
     
   h1 {
-    float: right;
-    text-align: right;
-    width: auto;
+    position: relative;
+    padding-left: 2.4em;
   }
+    
+.main_nav {
+    position: relative;
+    left: -3.4em;  
+}
 
   img {
     max-width: 100%;
